@@ -7,7 +7,7 @@ import {
   Trash2,
 } from "lucide-react";
 import  type { ContactMessage } from "../../types/contact";
-import { deleteContactMessage, getContactMessages, markContactAsRead } from "../../api/contactapi";
+import { deleteContactMessage, getContactMessages, markContactAsRead } from "../../api/contactApi";
 
 type Filter = "all" | "unread" | "read";
 

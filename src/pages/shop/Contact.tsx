@@ -8,8 +8,7 @@ import {
   Phone,
   Send,
 } from "lucide-react";
-import { sendContactMessage } from "../../api/contactapi";
-
+import { sendContactMessage } from "../../api/contactApi";
 const inputClass =
   "w-full rounded-xl border border-violet-100 bg-violet-50/40 px-4 py-3 text-sm text-gray-800 outline-none transition placeholder:text-gray-400 focus:border-violet-400 focus:bg-white focus:ring-2 focus:ring-violet-100";
 
