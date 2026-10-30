@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "http://aurascents.somee.com/api/:path*" },
+    { "source": "/images/:path*", "destination": "http://aurascents.somee.com/images/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
